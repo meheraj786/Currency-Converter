@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: .5rem; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B9B69; /* Scrollbar thumb color */
+  border-radius: .5rem; /* Roundness of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: #DCE6D0
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DCE6D0;
+  font-family: "Poppins", serif;
+  color: white;
+}
+.container{
+  background-color: #8B9B69;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  width: 40vh;
+}
+form {
+  margin: 2rem 0 1rem 0;
+}
+.container select,input,button{
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+  border-radius: 0.50rem;
+  background-color: #DCE6D0;
+  margin-top: 1rem;
+}
+select{
+  height: 2rem;
+  border: none;
+  background-color: #8B9B69;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.dropdown{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.select{
+  display: flex;
+  align-items: center;
+  border: 1px solid #DCE6D0;
+  border-radius: .5rem;
+  padding: .2rem;
+  margin-bottom: 2rem;
+  width: auto;
+}
+.select img{
+  width: 3rem;
+}
+p{
+  font-size: 1.3rem;
+}
+.result{
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  height: 3rem;
+  border: none;
+  border-radius: 0.50rem;
+  background-color: #DCE6D0;
+  color: #5b693c;
+}
+h2{
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  margin-top: .7rem;
+  color: white;
+}
+.bi{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+button{
+  margin-top: 4rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.50rem;
+  background-color: #DCE6D0;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0px 3px 8px #5b693c;
+}
